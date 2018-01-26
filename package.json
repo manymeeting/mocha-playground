@@ -3,11 +3,10 @@
   "version": "0.1.0",
   "scripts": {
     "server": "http-server . -c-1",
-    "build": "webpack",
-    "scripts": {
-      "test": "mocha --compilers js:babel-core/register"  
-    }
-      
+    "build": "webpack"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"  
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
