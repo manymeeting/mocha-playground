@@ -2,7 +2,7 @@
   "name": "mocha-es6-modules",
   "version": "0.1.0",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register",
+    "test": "mocha --require babel-core/register",
     "coveralls": "npm run cover -- --report lcovonly && cat ./coverage/lcov.info | coveralls"
   },
   "devDependencies": {
