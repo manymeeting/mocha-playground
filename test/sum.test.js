@@ -1,7 +1,6 @@
 
 import sum from '../sum.js';
-import chai from '../chai.js';
-import mocha from '../mocha.js';
+import chai from "chai"
 
 describe('Test Sum', function () {
   it('should return sum of arguments 1', function () {

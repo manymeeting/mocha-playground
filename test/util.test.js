@@ -1,8 +1,7 @@
 
 import {transformStringToHex} from '../util.js';
 import {constrain} from '../util.js';
-// import chai from '../chai.js';
-// import mocha from '../mocha.js';
+import chai from "chai"
 
 describe('Test transformStringToHex', function () {
 
