@@ -1,5 +1,7 @@
 # mocha-playground
 
+[![Build Status](https://travis-ci.org/manymeeting/mocha-playground.svg?branch=master)](https://travis-ci.org/manymeeting/mocha-playground)
+
  - How to test using browser
 
 >  Open test_browser/index.html in Firefox   
